@@ -7,13 +7,13 @@ void main() {
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
-
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Mastering Paint',
-      home: ClipRectWidget(),
+      debugShowCheckedModeBanner: false,
+      home: Scaffold(body: ClipRectWidget()),
     );
   }
 }
