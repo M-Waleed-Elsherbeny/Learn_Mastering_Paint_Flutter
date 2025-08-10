@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:mastering_paint/ClipRRect_Widget/cliprrect_widget.dart';
 import 'package:mastering_paint/ClipRect_Widget/cliprect_widget.dart';
 
 void main() {
@@ -13,7 +14,9 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Mastering Paint',
       debugShowCheckedModeBanner: false,
-      home: Scaffold(body: ClipRectWidget()),
+      home: Scaffold(body:ClipRRectWidget() 
+      //ClipRectWidget(),
+      ),
     );
   }
 }
